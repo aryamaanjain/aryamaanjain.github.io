@@ -1,9 +1,273 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Aryamaan Jain</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2J9ZBZ5TLR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2J9ZBZ5TLR');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryamaan Jain - PhD Researcher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header img {
+            height: 150px;
+            margin-right: 20px;
+            border: 2px solid black;
+        }
+
+        header .info {
+            max-width: 500px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        header p {
+            margin: 5px 0;
+            color: #282828;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px 20px 0px 20px;
+        }
+
+        .publication {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .publication img {
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            margin-right: 15px;
+            border: 1px solid #111111;
+        }
+
+        .publication .details {
+            max-width: 650px;
+        }
+
+        .publication h3 {
+            margin: 0;
+            font-size: 15px;
+        }
+
+        .publication p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #282828;
+        }
+
+        .publication .links a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 14px;
+        }
+
+        .publication .links a:hover {
+            text-decoration: underline;
+        }
+
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            color: #555;
+        }
+
+        footer p {
+            margin: 5px 0;
+            font-size: 12px;
+        }
+
+        .about p {
+            text-align: justify;
+            color: #282828;
+        }
+    </style>
 </head>
 <body>
-    <h1>Aryamaan Jain</h1>
+    <header>
+        <img src="image/profile.jpg" alt="My Photo">
+        <div class="info">
+            <h1>Aryamaan Jain</h1>
+            <p>PhD Researcher, Computer Science</p>
+            <p>Affiliation: Inria</p>
+            <nav>
+                <a href="mailto:aryamaan.jain@inria.fr">Email</a>
+                <a href="https://scholar.google.com/citations?user=g41AU7cAAAAJ&hl=en">Google Scholar</a>
+                <a href="https://github.com/aryamaanjain/">GitHub</a>
+                <a href="https://gitlab.inria.fr/aryjain">GitLab</a>
+                <a href="pdf/cv.pdf">CV</a>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <div class="about">
+            <p>
+                I am a PhD researcher at Inria, Université Côte d'Azur in the GraphDeco research group supervised by Guillaume Cordonnier. I did my integrated bachelor's and master's in computer science and engineering at IIIT Hyderabad. My research interests are in computer graphics and machine learning, with a focus on generating realistic natural elements for virtual worlds, such as mountains, rivers, and trees.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Publications</h2>
+
+        <div class="publication">
+            <img src="image/2024/fastflow.jpg" alt="Publication Image">
+            <div class="details">
+                <h3>FastFlow: GPU Acceleration of Flow and Depression Routing for Landscape Simulation</h3>
+                <p><strong>Authors:</strong> <u>Aryamaan Jain</u>, Bernhard Kerbl, James Gain, Brandon Finley, Guillaume Cordonnier</p>
+                <p><strong>Journal:</strong> Computer Graphics Forum (Pacific Graphics 2024) <strong style="color:#004A4A">🏆 Best Paper Award</strong> </p>
+                <div class="links">
+                    <a href="pdf/2024/fastflow.pdf">PDF</a>
+                    <a href="https://gitlab.inria.fr/landscapes/fastflow">Code</a>
+                    <a href="https://www.youtube.com/watch?v=X8xDFgdevcg">Video</a>
+                    <a href="https://www-sop.inria.fr/reves/Basilic/2024/JKGFC24/">Project Page</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="publication">
+            <img src="image/2024/debrisflow.jpg" alt="Publication Image">
+            <div class="details">
+                <h3>Efficient Debris-flow Simulation for Steep Terrain Erosion</h3>
+                <p><strong>Authors:</strong> <u>Aryamaan Jain</u>, Bedrich Benes, Guillaume Cordonnier</p>
+                <p><strong>Journal:</strong> ACM Transactions on Graphics (SIGGRAPH 2024)</p>
+                <div class="links">
+                    <a href="pdf/2024/debrisflow.pdf">PDF</a>
+                    <a href="https://gitlab.inria.fr/landscapes/debrisflow">Code</a>
+                    <a href="http://www-sop.inria.fr/reves/Basilic/2024/JBC24/timelapse.mp4">Video</a>
+                    <a href="https://www-sop.inria.fr/reves/Basilic/2024/JBC24/">Project Page</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="publication">
+            <img src="image/2024/infinite.jpg" alt="Publication Image">
+            <div class="details">
+                <h3>Learning Based Infinite Terrain Generation with Level of Detailing</h3>
+                <p><strong>Authors:</strong> <u>Aryamaan Jain</u>, Avinash Sharma, KS Rajan</p>
+                <p><strong>Conference:</strong> 3DV 2024</p>
+                <div class="links">
+                    <a href="pdf/2024/infinite.pdf">PDF</a>
+                    <a href="https://github.com/aryamaanjain/mr_terrain">Code</a>
+                    <a href="https://www.youtube.com/watch?v=Wiy06fXsY9Y">Video</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="publication">
+            <img src="image/2022/diffusion.jpg" alt="Publication Image">
+            <div class="details">
+                <h3>Adaptive & Multi-Resolution Procedural Infinite Terrain Generation with Diffusion Models and Perlin Noise</h3>
+                <p><strong>Authors:</strong> <u>Aryamaan Jain</u>, Avinash Sharma, KS Rajan</p>
+                <p><strong>Conference:</strong> ICVGIP 2022</p>
+                <div class="links">
+                    <a href="pdf/2022/diffusion.pdf">PDF</a>
+                    <a href="https://github.com/aryamaanjain/trcan">Code</a>
+                    <a href="https://www.youtube.com/watch?v=6Uz6m4piXYI">Video</a>
+                    <a href="https://3dcomputervision.github.io/publications/inf_terrain_generation.html">Project Page</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="publication">
+            <img src="image/2022/vae.jpg" alt="Publication Image">
+            <div class="details">
+                <h3>Deep Generative Framework for Interactive 3D Terrain Authoring and Manipulation</h3>
+                <p><strong>Authors:</strong> Shanthika Naik, <u>Aryamaan Jain</u>, Avinash Sharma, KS Rajan</p>
+                <p><strong>Conference:</strong> IGARSS 2022</p>
+                <div class="links">
+                    <a href="pdf/2022/vae.pdf">PDF</a>
+                    <a href="https://github.com/Shanthika/TerrainAuthoring-Pytorch">Code</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="publication">
+            <img src="image/2022/vlsi.jpg" alt="Publication Image">
+            <div class="details">
+                <h3>Fast and efficient ResNN and Genetic optimization for PVT aware performance enhancement in digital circuits</h3>
+                <p><strong>Authors:</strong> Kushagra Agarwal*, <u>Aryamaan Jain</u>*, Deepthi Amuru, Zia Abbas <em>(* Equal Contribution)</em></p>
+                <p><strong>Conference:</strong> VLSI-DAT 2022 <strong style="color:#004A4A">🏆 Best Paper Nomination</strong> </p>
+                <div class="links">
+                    <a href="pdf/2022/vlsi.pdf">PDF</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="publication">
+            <img src="image/2021/tree.jpg" alt="Publication Image">
+            <div class="details">
+                <h3>Automated tree generation using grammar & particle system</h3>
+                <p><strong>Authors:</strong> <u>Aryamaan Jain</u>, Jyoti Sunkara, Ishaan Shah, Avinash Sharma, KS Rajan</p>
+                <p><strong>Conference:</strong> ICVGIP 2021</p>
+                <div class="links">
+                    <a href="pdf/2021/tree.pdf">PDF</a>
+                    <a href="https://github.com/aryamaanjain/tree_generation_grammar">Code</a>
+                    <a href="https://www.youtube.com/watch?v=wIaY3GgnyX0">Video</a>
+                    <a href="https://3dcomputervision.github.io/publications/tree_generation_icvgip.html">Project Page</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© Aryamaan Jain | Last updated: November 2024</p>
+    </footer>
+
+
 </body>
+
 </html>
